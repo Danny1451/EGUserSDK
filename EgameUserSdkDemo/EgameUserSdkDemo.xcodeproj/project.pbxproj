@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68342A371B2584C800A10C5C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68342A361B2584C800A10C5C /* AdSupport.framework */; };
+		68342A691B26C64000A10C5C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68342A681B26C64000A10C5C /* libz.dylib */; };
+		68342A6A1B26C64C00A10C5C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68342A3C1B25852600A10C5C /* SystemConfiguration.framework */; };
+		68342A6C1B26C65C00A10C5C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68342A6B1B26C65C00A10C5C /* MobileCoreServices.framework */; };
+		68342A6D1B26C67200A10C5C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68342A381B2584F800A10C5C /* CFNetwork.framework */; };
+		C15D73DC1B253FEB00794675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D73DB1B253FEB00794675 /* main.m */; };
+		C15D73DF1B253FEB00794675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D73DE1B253FEB00794675 /* AppDelegate.m */; };
+		C15D73E21B253FEB00794675 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D73E11B253FEB00794675 /* ViewController.m */; };
+		C15D73E51B253FEB00794675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15D73E31B253FEB00794675 /* Main.storyboard */; };
+		C15D73E71B253FEB00794675 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15D73E61B253FEB00794675 /* Images.xcassets */; };
+		C15D73EA1B253FEB00794675 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15D73E81B253FEB00794675 /* LaunchScreen.xib */; };
+		C15D73F61B253FEB00794675 /* EgameUserSdkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D73F51B253FEB00794675 /* EgameUserSdkDemoTests.m */; };
+		C1C96C921BDE28C500CF9668 /* EgameUserSdkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1C96C901BDE28C500CF9668 /* EgameUserSdkBundle.bundle */; };
+		C1C96C931BDE28C500CF9668 /* libEgameUserSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C96C911BDE28C500CF9668 /* libEgameUserSdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C15D73F01B253FEB00794675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15D73CE1B253FEB00794675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15D73D51B253FEB00794675;
+			remoteInfo = EgameUserSdkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68342A361B2584C800A10C5C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		68342A381B2584F800A10C5C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		68342A3A1B2584FF00A10C5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68342A3C1B25852600A10C5C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		68342A3E1B25854400A10C5C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		68342A401B268C4C00A10C5C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		68342A681B26C64000A10C5C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		68342A6B1B26C65C00A10C5C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C15D73D61B253FEB00794675 /* EgameUserSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgameUserSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15D73DA1B253FEB00794675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15D73DB1B253FEB00794675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C15D73DD1B253FEB00794675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C15D73DE1B253FEB00794675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C15D73E01B253FEB00794675 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C15D73E11B253FEB00794675 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C15D73E41B253FEB00794675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C15D73E61B253FEB00794675 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C15D73E91B253FEB00794675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C15D73EF1B253FEB00794675 /* EgameUserSdkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgameUserSdkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15D73F41B253FEB00794675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15D73F51B253FEB00794675 /* EgameUserSdkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgameUserSdkDemoTests.m; sourceTree = "<group>"; };
+		C1C96C8F1BDE28C500CF9668 /* EgameUserSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EgameUserSdk.h; sourceTree = "<group>"; };
+		C1C96C901BDE28C500CF9668 /* EgameUserSdkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EgameUserSdkBundle.bundle; sourceTree = "<group>"; };
+		C1C96C911BDE28C500CF9668 /* libEgameUserSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEgameUserSdk.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C15D73D31B253FEB00794675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68342A6D1B26C67200A10C5C /* CFNetwork.framework in Frameworks */,
+				C1C96C931BDE28C500CF9668 /* libEgameUserSdk.a in Frameworks */,
+				68342A6C1B26C65C00A10C5C /* MobileCoreServices.framework in Frameworks */,
+				68342A6A1B26C64C00A10C5C /* SystemConfiguration.framework in Frameworks */,
+				68342A691B26C64000A10C5C /* libz.dylib in Frameworks */,
+				68342A371B2584C800A10C5C /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15D73EC1B253FEB00794675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C15D73CD1B253FEB00794675 = {
+			isa = PBXGroup;
+			children = (
+				68342A6B1B26C65C00A10C5C /* MobileCoreServices.framework */,
+				68342A681B26C64000A10C5C /* libz.dylib */,
+				68342A401B268C4C00A10C5C /* Security.framework */,
+				68342A3E1B25854400A10C5C /* ImageIO.framework */,
+				68342A3C1B25852600A10C5C /* SystemConfiguration.framework */,
+				68342A3A1B2584FF00A10C5C /* Foundation.framework */,
+				68342A381B2584F800A10C5C /* CFNetwork.framework */,
+				68342A361B2584C800A10C5C /* AdSupport.framework */,
+				C15D73D81B253FEB00794675 /* EgameUserSdkDemo */,
+				C15D73F21B253FEB00794675 /* EgameUserSdkDemoTests */,
+				C15D73D71B253FEB00794675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C15D73D71B253FEB00794675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C15D73D61B253FEB00794675 /* EgameUserSdkDemo.app */,
+				C15D73EF1B253FEB00794675 /* EgameUserSdkDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C15D73D81B253FEB00794675 /* EgameUserSdkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C1C96C8E1BDE28C500CF9668 /* EGUserSDK */,
+				C15D73DD1B253FEB00794675 /* AppDelegate.h */,
+				C15D73DE1B253FEB00794675 /* AppDelegate.m */,
+				C15D73E01B253FEB00794675 /* ViewController.h */,
+				C15D73E11B253FEB00794675 /* ViewController.m */,
+				C15D73E31B253FEB00794675 /* Main.storyboard */,
+				C15D73E61B253FEB00794675 /* Images.xcassets */,
+				C15D73E81B253FEB00794675 /* LaunchScreen.xib */,
+				C15D73D91B253FEB00794675 /* Supporting Files */,
+			);
+			path = EgameUserSdkDemo;
+			sourceTree = "<group>";
+		};
+		C15D73D91B253FEB00794675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C15D73DA1B253FEB00794675 /* Info.plist */,
+				C15D73DB1B253FEB00794675 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C15D73F21B253FEB00794675 /* EgameUserSdkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C15D73F51B253FEB00794675 /* EgameUserSdkDemoTests.m */,
+				C15D73F31B253FEB00794675 /* Supporting Files */,
+			);
+			path = EgameUserSdkDemoTests;
+			sourceTree = "<group>";
+		};
+		C15D73F31B253FEB00794675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C15D73F41B253FEB00794675 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C96C8E1BDE28C500CF9668 /* EGUserSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C1C96C8F1BDE28C500CF9668 /* EgameUserSdk.h */,
+				C1C96C901BDE28C500CF9668 /* EgameUserSdkBundle.bundle */,
+				C1C96C911BDE28C500CF9668 /* libEgameUserSdk.a */,
+			);
+			name = EGUserSDK;
+			path = ../../EGUserSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C15D73D51B253FEB00794675 /* EgameUserSdkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15D73F91B253FEB00794675 /* Build configuration list for PBXNativeTarget "EgameUserSdkDemo" */;
+			buildPhases = (
+				C15D73D21B253FEB00794675 /* Sources */,
+				C15D73D31B253FEB00794675 /* Frameworks */,
+				C15D73D41B253FEB00794675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EgameUserSdkDemo;
+			productName = EgameUserSdkDemo;
+			productReference = C15D73D61B253FEB00794675 /* EgameUserSdkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C15D73EE1B253FEB00794675 /* EgameUserSdkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15D73FC1B253FEB00794675 /* Build configuration list for PBXNativeTarget "EgameUserSdkDemoTests" */;
+			buildPhases = (
+				C15D73EB1B253FEB00794675 /* Sources */,
+				C15D73EC1B253FEB00794675 /* Frameworks */,
+				C15D73ED1B253FEB00794675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15D73F11B253FEB00794675 /* PBXTargetDependency */,
+			);
+			name = EgameUserSdkDemoTests;
+			productName = EgameUserSdkDemoTests;
+			productReference = C15D73EF1B253FEB00794675 /* EgameUserSdkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C15D73CE1B253FEB00794675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = egame;
+				TargetAttributes = {
+					C15D73D51B253FEB00794675 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C15D73EE1B253FEB00794675 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C15D73D51B253FEB00794675;
+					};
+				};
+			};
+			buildConfigurationList = C15D73D11B253FEB00794675 /* Build configuration list for PBXProject "EgameUserSdkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C15D73CD1B253FEB00794675;
+			productRefGroup = C15D73D71B253FEB00794675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C15D73D51B253FEB00794675 /* EgameUserSdkDemo */,
+				C15D73EE1B253FEB00794675 /* EgameUserSdkDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C15D73D41B253FEB00794675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15D73E51B253FEB00794675 /* Main.storyboard in Resources */,
+				C15D73EA1B253FEB00794675 /* LaunchScreen.xib in Resources */,
+				C15D73E71B253FEB00794675 /* Images.xcassets in Resources */,
+				C1C96C921BDE28C500CF9668 /* EgameUserSdkBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15D73ED1B253FEB00794675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C15D73D21B253FEB00794675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15D73E21B253FEB00794675 /* ViewController.m in Sources */,
+				C15D73DF1B253FEB00794675 /* AppDelegate.m in Sources */,
+				C15D73DC1B253FEB00794675 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15D73EB1B253FEB00794675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15D73F61B253FEB00794675 /* EgameUserSdkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C15D73F11B253FEB00794675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C15D73D51B253FEB00794675 /* EgameUserSdkDemo */;
+			targetProxy = C15D73F01B253FEB00794675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C15D73E31B253FEB00794675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15D73E41B253FEB00794675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C15D73E81B253FEB00794675 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15D73E91B253FEB00794675 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C15D73F71B253FEB00794675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C15D73F81B253FEB00794675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C15D73FA1B253FEB00794675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EgameUserSdkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		C15D73FB1B253FEB00794675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EgameUserSdkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		C15D73FD1B253FEB00794675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EgameUserSdkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgameUserSdkDemo.app/EgameUserSdkDemo";
+			};
+			name = Debug;
+		};
+		C15D73FE1B253FEB00794675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EgameUserSdkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgameUserSdkDemo.app/EgameUserSdkDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C15D73D11B253FEB00794675 /* Build configuration list for PBXProject "EgameUserSdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15D73F71B253FEB00794675 /* Debug */,
+				C15D73F81B253FEB00794675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15D73F91B253FEB00794675 /* Build configuration list for PBXNativeTarget "EgameUserSdkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15D73FA1B253FEB00794675 /* Debug */,
+				C15D73FB1B253FEB00794675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15D73FC1B253FEB00794675 /* Build configuration list for PBXNativeTarget "EgameUserSdkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15D73FD1B253FEB00794675 /* Debug */,
+				C15D73FE1B253FEB00794675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C15D73CE1B253FEB00794675 /* Project object */;
+}
