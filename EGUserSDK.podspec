@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 
   s.name         = "EGUserSDK"
   s.version      = "1.1.0"
-  s.summary      = "A short description of EGUserSDK."
+  s.summary      = "EGUserSDK is UserSDK of Egame"
 
   s.description  = <<-DESC
                    A longer description of EGUserSDK in Markdown format.
-
+		   UserSDK of Egame
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
                    * Try to keep it short, snappy and to the point.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/EGUserSDK.git", :tag => "1.1.0" }
+  s.source       = { :git => "https://github.com/Danny1451/EGUserSDK.git", :tag => "1.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,9 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
+  s.source_files  = "EGUserSDK/*.h"
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -105,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+   s.resources = "EGUserSDK/libEgameUserSdk.a","EGUserSDK/EgameUserSdkBundle.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -117,7 +115,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.frameworks = "MobileCoreServices", "Security","ImageIO","SystemConfiguration","Foundation","CFNetwork","AdSupport"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
