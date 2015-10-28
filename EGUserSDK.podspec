@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EGUserSDK"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "EGUserSDK is UserSDK of Egame"
 
   s.description  = <<-DESC
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT" 
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Danny1451/EGUserSDK.git", :tag => "1.1.0" }
+  s.source       = { :git => "https://github.com/Danny1451/EGUserSDK.git", :tag => "1.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
