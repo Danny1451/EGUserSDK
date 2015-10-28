@@ -20,13 +20,8 @@ Pod::Spec.new do |s|
   s.summary      = "EGUserSDK is UserSDK of Egame"
 
   s.description  = <<-DESC
-                   A longer description of EGUserSDK in Markdown format.
-		   UserSDK of Egame
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
+                 	Fast way to set the UserSDK of Egame by cocoapods
+			DESC
 
   s.homepage     = "https://github.com/Danny1451/EGUserSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -103,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "EGUserSDK/libEgameUserSdk.a","EGUserSDK/EgameUserSdkBundle.bundle"
+   s.resources = "EGUserSDK/EgameUserSdkBundle.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -117,7 +112,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
    s.frameworks = "MobileCoreServices", "Security","ImageIO","SystemConfiguration","Foundation","CFNetwork","AdSupport"
 
-  # s.library   = "iconv"
+   s.vendored_libraries  = "EGUserSDK/libEgameUserSdk.a"
   # s.libraries = "iconv", "xml2"
 
 
